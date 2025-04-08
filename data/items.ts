@@ -7,7 +7,7 @@ export interface Item {
   
   let items: Item[] = [
     { id: 1, name: 'First Item', description: 'This is the first item.' },
-    { id: 2, name: 'Second Item' },
+    { id: 2, name: 'Second Item', description: 'This is the Second item.'  },
   ];
   
   let nextId = items.length + 1;

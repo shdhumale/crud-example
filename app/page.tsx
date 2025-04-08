@@ -1,6 +1,6 @@
 // app/page.tsx
 import { Item } from '@/data/items';
-import AddItemForm from './components/AddItemForm';
+
 import ItemList from './components/ItemList';
 
 export default async function Home() {
